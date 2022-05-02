@@ -1,0 +1,16 @@
+[package]
+name = "whitelist_payouts"
+version = "0.1.0"
+authors = ["Oleh Ivaniuk <fedencer7@gmail.com"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+near-sdk = "4.0.0-pre.8"
+
+[dev-dependencies]
+near-sdk-sim = "4.0.0-pre.8"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
